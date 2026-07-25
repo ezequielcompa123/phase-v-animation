@@ -71,7 +71,7 @@ function resize() {
   canvas.height = Math.round(viewportHeight * density);
   context.setTransform(density, 0, 0, density, 0, 0);
 
-  logoRadius = Math.min(viewportWidth * 0.32, viewportHeight * 0.27, 280);
+  logoRadius = Math.min(viewportWidth * 0.42, viewportHeight * 0.38, 420);
   centerX = viewportWidth / 2;
   centerY = viewportHeight / 2;
 }
